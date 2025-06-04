@@ -15,7 +15,7 @@ wget -O /tmp/rdp.sh "https://raw.githubusercontent.com/arivpnstores/rdp/main/ins
 
 ===============================
 
-INSTALLER DI DIGITALOCEAN
+**INSTALLER DI DIGITALOCEAN**
 
 ===============================
 
