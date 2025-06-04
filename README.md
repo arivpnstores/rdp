@@ -1,27 +1,41 @@
-#WINDOWS INSTALLER UNIVERSAL
-Support DO, Linode, Contabo & Other
-Cloud with Rescue Features enabled 
-bash <(curl -s https://sc.mtc.my.id/rdp.sh)
-Os Windows 2012 - 2022
-User: Administrator
-Pass: @Mtcstores
-Port: 6868
+# WINDOWS INSTALLER UNIVERSAL
 
-Step Installer Windows Digitalocean: 
-1. Deploy Ubuntu 20.04 atau Bebas Versinya.
-2. Klik Droplet > Matikan Droplet (ON/OFF)
-3. Masuk ke RECOVERY > Boot from Recovery ISO lalu ON kan kembali Droplet > masuk RECOVERY CONSOLE
-4. Di dalam CONSOLE ketik CTRL + Z atau pilih INTERACTIVE SHELL [/bin/bash]. Tidak usah utak atik yang lain lagi
-5. Paste Link Script (Installer), ENTER
-6. Install sampai selesai > Press ENTER to shutdown
-7. Matikan Droplet (ON/OFF)
-8. Masih di menu RECOVERY > Boot from Hard Drive lalu ON-kan Droplet
-9. Masuk ke ACCESS > Launch Recovery Console
-10. Isi username & Password RDP
-11. DONE...
+✅ Support: DigitalOcean, Linode, Contabo & Cloud lainnya  
+🔧 Fitur Rescue diaktifkan
 
-Tutorial Video DigitalOcean:
+📦 Perintah Installer (Full):
+#!/bin/bash
+wget -O /tmp/rdp.sh "https://raw.githubusercontent.com/arivpnstores/rdp/main/installer-rdp.sh"
+chmod 1700 /tmp/rdp.sh
+/tmp/rdp.sh
+
+🖥️ OS Support: Windows Server 2012 - 2022  
+👤 User: Administrator  
+🔐 Password: @Mtcstores  
+🔌 Port: 6868
+
+===============================
+Step-by-Step: INSTALLER DI DIGITALOCEAN
+===============================
+
+1️⃣ Deploy VPS dengan OS Ubuntu 20.04 (boleh juga versi lain)  
+2️⃣ Klik Droplet > OFF-kan dulu VPS (Power OFF)  
+3️⃣ Masuk ke menu **RECOVERY** > Pilih **Boot from Recovery ISO** lalu ON-kan kembali VPS  
+4️⃣ Klik **Launch Recovery Console**  
+5️⃣ Di dalam console, tekan `CTRL + Z` atau pilih **INTERACTIVE SHELL (/bin/bash)**  
+   ❗ Jangan otak-atik menu lain  
+6️⃣ Paste perintah di atas → tekan **ENTER**  
+7️⃣ Tunggu proses instalasi selesai → tekan ENTER untuk shutdown  
+8️⃣ Kembali ke Droplet > OFF-kan VPS  
+9️⃣ Masih di menu **RECOVERY** > Pilih **Boot from Hard Drive** lalu ON-kan VPS  
+🔟 Masuk ke tab **ACCESS** > Klik **Launch Recovery Console**  
+🔑 Masukkan **Username dan Password RDP** seperti di atas  
+✅ DONE! Windows Server siap digunakan!
+
+🎥 Video Tutorial DigitalOcean:
 https://streamable.com/6ph1vp
 
-#NOTED
-Mau pakai artinya Faham !
+===============================
+# NOTE:
+"Mau pakai artinya FAHAM!"
+===============================
