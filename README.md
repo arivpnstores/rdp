@@ -14,7 +14,9 @@ wget -O /tmp/rdp.sh "https://raw.githubusercontent.com/arivpnstores/rdp/main/ins
 🔌 Port: 6868
 
 ===============================
+
 INSTALLER DI DIGITALOCEAN
+
 ===============================
 
 1️⃣ Deploy VPS dengan OS Ubuntu 20.04 (boleh juga versi lain)  
@@ -35,6 +37,7 @@ INSTALLER DI DIGITALOCEAN
 https://streamable.com/6ph1vp
 
 ===============================
+
 For assistance, contact me on Telegram:
 🔗 https://t.me/maintenancez
 
@@ -43,4 +46,5 @@ Join our Telegram Channel:
 
 For further inquiries, you can join:
 🔗 https://t.me/jualbelivps
+
 ===============================
