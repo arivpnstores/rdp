@@ -3,13 +3,12 @@
 ✅ Support: DigitalOcean, Linode, Contabo & Cloud lainnya  
 🔧 Fitur Rescue diaktifkan
 
-📦 Perintah Installer (Full):
-#!/bin/bash
-wget -O /tmp/rdp.sh "https://raw.githubusercontent.com/arivpnstores/rdp/main/installer-rdp.sh"
-chmod 1700 /tmp/rdp.sh
-/tmp/rdp.sh
+📦 Perintah Installer :
+```bash
+wget -O /tmp/rdp.sh "https://raw.githubusercontent.com/arivpnstores/rdp/main/installer-rdp.sh" && chmod 1700 /tmp/rdp.sh && /tmp/rdp.sh
+```
 
-🖥️ OS Support: Windows Server 2012 - 2022  
+🖥️ OS Support: Windows Server 2012R2 - 2022  
 👤 User: Administrator  
 🔐 Password: @Mtcstores  
 🔌 Port: 6868
@@ -36,6 +35,12 @@ Step-by-Step: INSTALLER DI DIGITALOCEAN
 https://streamable.com/6ph1vp
 
 ===============================
-# NOTE:
-"Mau pakai artinya FAHAM!"
+For assistance, contact me on Telegram:
+🔗 https://t.me/maintenancez
+
+Join our Telegram Channel:
+🔗 https://t.me/MTCSTORES
+
+For further inquiries, you can join:
+🔗 https://t.me/jualbelivps
 ===============================
